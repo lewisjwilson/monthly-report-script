@@ -71,9 +71,9 @@ function hideButtons() {
   const drawings = sheet.getDrawings();
   for(var i = 0 ; i<drawings.length;i++){
     const button = drawings[i];
-    button.setPosition(14, 12, 0, 0);
     button.setHeight(1);
     button.setWidth(1);
+    button.setPosition(48, 1, 0, 0);
   }
 }
 
